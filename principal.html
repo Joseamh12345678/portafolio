@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Portafolio - Jose</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Menú de Navegación -->
+  <nav class="navegacion">
+    <a href="#inicio">Inicio</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#cv">CV y Cover Letter</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <!-- Sección: Inicio -->
+  <section id="inicio" class="seccion">
+    <div class="contenedor">
+      <h1>Jose Arod Martinez Hernandez</h1>
+      <h2>Desarrollador Full Stack</h2>
+      <p>Soy un estudiante de universdad con dferentes habilidades tecnicas y blandas para el desarrollo de
+        proyectos y resolucion de problemas.
+        </p>
+
+      <div class="enlaces">
+        <a class="boton" href="https://github.com/Joseamh12345678" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="seccion">
+    <div class="contenedor">
+      <h2>Proyectos</h2>
+      <div class="proyecto">
+        <h3>Web AgroNegocio</h3>
+        <p>Una pagina web que funcionaba como un marketplace pero especificamente dirigido para los ganaderos y agricultores, donde se vende: ganado, accesorios para el ganado, entre otras cosas.</p>
+        <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+      </div>
+      <div class="proyecto">
+        <h3>Web sobre el agua</h3>
+        <p>Una pagina web que funcionaba para verificar donde hay alguna fuga en las tuberias de la ciudad mediante un sensor o si hay alguna obstruccion en las tuberias.</p>
+        <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+      </div>
+      <div class="proyecto">
+        <h3>Web CiberSeguridad</h3>
+        <p>Una pagina web que funcionaba mediante una camara que identifica a quienes conducen imprudentemente y se les pueda asegurar mas rapido para mayor seguridad de las personas.</p>
+        <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cv" class="seccion">
+    <div class="contenedor">
+      <h2>CV Profesional</h2>
+      <p>Puedes descargar mi CV en formato PDF para conocer más sobre mi experiencia y formación.</p>
+      <a class="boton" href="Curriculum.pdf" download>Descargar CV</a>
+    </div>
+    <div class="contenedor">
+      <h2>Cover Letter</h2>
+      <p>Puedes descargar mi Cover Letter en formato PDF para conocer más sobre mi experiencia y formación.</p>
+      <a class="boton" href="mi cover letter.pdf" download>Descargar Cover Letter</a>
+    </div>
+  </section>
+
+  <!-- Sección: Habilidades Técnicas -->
+  <section id="habilidades" class="seccion">
+    <div class="contenedor">
+      <h2>Habilidades Técnicas</h2>
+      <ul>
+        <li><strong>Lenguajes:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Frameworks:</strong> React, Express</li>
+        <li><strong>Bases de datos:</strong> MongoDB, MySQL</li>
+        <li><strong>Herramientas:</strong> Git, GitHub, VS Code</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Sección: Contacto -->
+  <section id="contacto" class="seccion">
+    <div class="contenedor">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/tu_formulario" method="POST">
+        <input type="text" name="nombre" placeholder="Tu nombre" required />
+        <input type="email" name="correo" placeholder="Tu correo" required />
+        <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p>O escríbeme directamente: <strong>jose.martinez1154@hotmail.com</strong></p>
+    </div>
+  </section>
+
+</body>
+</html>
